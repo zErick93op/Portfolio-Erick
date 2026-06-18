@@ -1,13 +1,17 @@
+'use client';
 import localFont from "next/font/local";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const asimovian = localFont({
   src: "../app/fonts/Asimovian-Regular.ttf"
 })
 
 export default function About() {
+  AOS.init();
   return (
-    <section id="aboutme" className={`${asimovian.className} py-[50px] px-[40px] min-h-screen flex items-center gap-[156px]`}>
-      <div className="flex flex-col w-[780px]">
+    <section id="aboutme" className={`${asimovian.className} py-[50px] px-[40px] min-h-screen flex items-center gap-[156px] overflow-x-clip`}>
+      <div className="flex flex-col w-[780px]" data-aos="fade-right" data-aos-duration="3000">
         <h2 className="text-[40px] font-bold mb-[15px] text-white">
           Sobre mí
         </h2>
@@ -20,7 +24,7 @@ export default function About() {
          Disfruto aprender constantemente sobre tecnología, diseño web e informática, y seguir mejorando mis habilidades en cada proyecto que desarrollo.
         </p>
       </div>
-      <div className="">
+      <div className="" data-aos="fade-left" data-aos-duration="3000">
         <h2 className="max-w-2xl mx-auto text-white text-[40px] mb-[24px]">Mi Stack</h2>
         <div className="flex flex-wrap gap-[90px] items-center justify-center bg-white/10 py-[20px] px-[20px] rounded-[30px] border-[1px] border-[#E2E8F0] w-[687px]">
           <img src="/logos/Python.png" alt="Python"/>
