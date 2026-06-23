@@ -15,7 +15,7 @@ export default function Navbar() {
       </h1>
 
       {/* NAV LINKS */}
-      <nav className="flex gap-6 text-sm">
+      <nav className="gap-6 text-sm flex gap-6 text-sm">
         <a href="#aboutme">Sobre mí</a>
         <a href="#projects">Proyectos</a>
         <a href="#contact">Contáctame</a>

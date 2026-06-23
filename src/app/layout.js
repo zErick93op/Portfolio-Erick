@@ -5,7 +5,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="es" className="scroll-smooth">
       <body>
-        <div className="relative min-h-screen bg-black">
+        <div className="relative min-h-screen bg-black overflow-x-clip">
 
           {/*Glow Principal (Recuerda Erick tipo circulo Principal como en Figma*/}
          <div className="absolute -top-40 -left-40 w-[600px] h-[600px] bg-[#541557] opacity-36 blur-[120px] rounded-full"></div>

@@ -2,13 +2,15 @@
 import localFont from "next/font/local";
 import AOS from 'aos'
 import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 const asimovian = localFont({ 
     src: "../app/fonts/Asimovian-Regular.ttf"
 })
 
 export default function Contact() {
-    AOS.init();
+    useEffect(()=> {
+    AOS.init(); }, [])
     return (
         <section id="contact" className={`${asimovian.className} h-screen flex items-center justify-center`}>
             <div className="relative bg-[#541557] flex items-center justify-center h-[40%] w-[100%] flex-col gap-[10px]">

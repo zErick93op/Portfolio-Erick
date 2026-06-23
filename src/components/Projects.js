@@ -2,13 +2,15 @@
 import localFont from "next/font/local"
 import AOS from 'aos'
 import 'aos/dist/aos.css'; 
+import { useEffect } from 'react'
 
 const asimovian = localFont({
     src: "../app/fonts/Asimovian-Regular.ttf"
 })
 
 export default function Projects() {
-    AOS.init();
+    useEffect(() => {
+    AOS.init(); }, []);
     return (
         <section id="projects" className={`${asimovian.className} min-h-screen bg-000 px-[40px] py-[50px] flex flex-col`}>
             <h2 className="text-white text-[40px] font-bold mb-8" data-aos="fade-right" data-aos-duration="3000">Proyectos</h2>
