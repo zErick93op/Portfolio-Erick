@@ -27,11 +27,11 @@ export default function Hero() {
       {/*Botones*/}
       <div className="flex items-center justify-center gap-3">
 
-          <button className={`${inter.className} border border-white/50 px-4 py-2 text-sm rounded-[1rem] font-bold hover:shadow-[#541557] hover:shadow-lg `}>
+          <button className={`${inter.className} border border-white/50 px-4 py-2 text-sm rounded-[1rem] font-bold hover:shadow-[#541557] hover:shadow-lg`}>
             Sobre mí
           </button>
 
-          <button className={`${inter.className} border border-white/50 px-4 py-2 text-sm rounded-[1rem] font-bold`}>
+          <button className={`${inter.className} border border-white/50 px-4 py-2 text-sm rounded-[1rem] font-bold hover:shadow-[#541557] hover:shadow-lg`}>
             Contáctame
           </button>
 

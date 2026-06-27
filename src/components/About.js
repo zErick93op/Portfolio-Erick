@@ -30,13 +30,13 @@ export default function About() {
       <div className="" data-aos="fade-left" data-aos-duration="3000">
         <h2 className="max-w-2xl mx-auto text-white text-[40px] mb-[24px]">Mi Stack</h2>
         <div className="flex flex-col w-[300px] lg:flex-row md:flex-row flex-wrap gap-[90px] items-center justify-center bg-white/10 py-[20px] px-[20px] rounded-[30px] border-[1px] border-[#E2E8F0] lg:w-[687px] md:w-[687px]">
-          <img src="/logos/Python.png" alt="Python"/>
-          <img src="/logos/Astro.png" alt="Astro"/>
-          <img src="/logos/Bootstrap.png" alt="Bootstrap"/>
-          <img src="/logos/Figma.png" alt="Figma"/>
-          <img src="/logos/Html.png" alt="Html"/>
-          <img src="logos/Css.png" alt="Css"/>
-          <img src="logos/Javascript.png" alt="JavaScript"/>
+          <img data-aos="flip-up" src="/logos/Python.png" alt="Python"/>
+          <img data-aos="flip-up" src="/logos/Astro.png" alt="Astro"/>
+          <img data-aos="flip-up" src="/logos/Bootstrap.png" alt="Bootstrap"/>
+          <img data-aos="flip-up" src="/logos/Figma.png" alt="Figma"/>
+          <img data-aos="flip-up" src="/logos/Html.png" alt="Html"/>
+          <img data-aos="flip-up" src="logos/Css.png" alt="Css"/>
+          <img data-aos="flip-up" src="logos/Javascript.png" alt="JavaScript"/>
         </div>
       </div>
     </section>

@@ -19,13 +19,13 @@ export default function Projects() {
                     <div className="rounded-[30px] bg-[#541557] p-8 text-white w-[300px] h-[302] justify-self-end flex items-center justify-center text-center shadow-[inset_100px_0px_0px_rgba(0,0,0,0.35)]">
                         <h3 className="text-2xl font-semibold">Soon . .</h3>
                     </div>
-                    <div className="rounded-[30px] bg-[#541557] p-8 text-white flex items-center justify-center text-center shadow-[inset_100px_0px_0px_rgba(0,0,0,0.35)]">
+                    <div className="rounded-[30px] bg-[#541557] p-8 text-white flex items-center justify-center text-center shadow-[inset_100px_0px_0px_rgba(0,0,0,0.35)] h-[302]">
                         <h3 className="text-2xl font-semibold">Soon . .</h3>
                     </div>
                     <div className="rounded-[30px] bg-[#541557] p-8 text-white w-[300px] h-[302] justify-self-end flex items-center justify-center text-center shadow-[inset_100px_0px_0px_rgba(0,0,0,0.35)] ">
                         <h3 className="text-2xl font-semibold">Soon . .</h3>
                     </div>
-                    <div className="rounded-[30px] bg-[#541557] p-8 text-white flex items-center justify-center text-center shadow-[inset_100px_0px_0px_rgba(0,0,0,0.35)]">
+                    <div className="rounded-[30px] bg-[#541557] p-8 text-white flex items-center justify-center text-center shadow-[inset_100px_0px_0px_rgba(0,0,0,0.35)] h-[302]">
                         <h3 className="text-2xl font-semibold">Soon . .</h3>
                     </div>
                 </div>
